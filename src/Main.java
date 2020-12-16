@@ -1,3 +1,5 @@
+import static UI.UIMenu.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -5,10 +7,12 @@ public class Main {
         myDoctor.setName("Alejandro");
         myDoctor.showId();
         Doctor myDoctor2 = new Doctor();
-        myDoctor.setName("Alejandro");
+        myDoctor.setName("David");
         myDoctor.showId();
         Doctor myDoctor3 = new Doctor();
-        myDoctor.setName("Alejandro");
+        myDoctor.setName("garcia");
         myDoctor.showId();
+
+        showMenu();
     }
 }
